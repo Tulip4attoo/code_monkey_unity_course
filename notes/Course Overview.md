@@ -7,10 +7,10 @@ Thì đại khái đây là 1 game nấu ăn để hoàn thành càng nhiều or
 
 Trình tự thực hiện các bước thì gồm:
 + tạo new project
-+ learn the basic Unity layout (so-so)
++ learn the basic Unity layout (so-so) [[Unity layout & Interface]]
 + về VS 2022 (mình ko dùng, mình vẫn dùng VS code thôi)
-+ Code style, naming rules
-+ Importing Assets (mấy cái này là bước khởi đầu rồi)
++ Code style, naming rules [[Code style, naming rules]]
++ Importing Assets (mấy cái này là bước khởi đầu rồi, mà chỉ import thôi, chả có gì)
 + Post processing (ơ sao làm bước này sớm thế?)
 + Character controller
 + Character visual, rotation (character cơ bản thôi, kết hợp phần trên)

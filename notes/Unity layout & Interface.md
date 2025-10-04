@@ -1,0 +1,2 @@
+Giới thiệu qua về Unity layout và interface thôi, setup 1 chút nữa. Mình cũng học theo thôi, cơ mà cá nhân thấy cũng ko quan tọng lắm, setup sao cũng được ấy. Với mình cũng tương đối quen rồi mà.
+Có 1 cái là ở chỗ chọn ratio display cho game, hãy chọn Vsync để giảm số call FPS, để vừa đủ thôi (chứ bt nó sẽ draw max fps)

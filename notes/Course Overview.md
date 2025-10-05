@@ -17,7 +17,7 @@ Trình tự thực hiện các bước thì gồm:
 + Animations [[Animations]]
 + Cinemachine (thật ra cũng chả dùng mấy mà biết thì tốt) [[Cinemachine]]
 + input system refactor (cơ chế mới, tốt đó) [[Unity New Input System]]
-+ collision detection
++ collision detection [[Collision detection for player movement]]
 + clear counter, interact
 + interact action, C# event (để làm đoạn trên à, đoạn trên là interact thì log lại?)
 + selected counter visual, singleton pattern

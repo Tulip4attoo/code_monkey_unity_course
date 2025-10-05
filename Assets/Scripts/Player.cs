@@ -4,30 +4,13 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 10f;
     [SerializeField] private float rotationSpeed = 10f;
+    [SerializeField] private GameInput gameInput;
     private bool isWalking = false;
+    private Vector2 inputVector;
 
     private void Update()
     {
-        Vector2 inputVector = new Vector2(0, 0);
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            inputVector.y = 1;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            inputVector.y = -1;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            inputVector.x = -1;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            inputVector.x = 1;
-        }
-
-        inputVector = inputVector.normalized;
+        inputVector = gameInput.GetMovementVectorNormalized();
         isWalking = inputVector != Vector2.zero;
 
         if (isWalking)

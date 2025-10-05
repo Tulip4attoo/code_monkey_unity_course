@@ -16,7 +16,7 @@ Trình tự thực hiện các bước thì gồm:
 + Character visual, rotation (character cơ bản thôi, kết hợp phần trên) [[Character visual n rotation]]
 + Animations [[Animations]]
 + Cinemachine (thật ra cũng chả dùng mấy mà biết thì tốt) [[Cinemachine]]
-+ input system refactor (cơ chế mới, tốt đó)
++ input system refactor (cơ chế mới, tốt đó) [[Unity New Input System]]
 + collision detection
 + clear counter, interact
 + interact action, C# event (để làm đoạn trên à, đoạn trên là interact thì log lại?)

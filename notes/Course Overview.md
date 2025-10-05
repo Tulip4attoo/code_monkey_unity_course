@@ -19,7 +19,7 @@ Trình tự thực hiện các bước thì gồm:
 + input system refactor (cơ chế mới, tốt đó) [[Unity New Input System]]
 + collision detection [[Collision detection for player movement]]
 + clear counter, interact  [[Clear counter and make counter interact]]
-+ interact action, C# event (để làm đoạn trên à, đoạn trên là interact thì log lại?)
++ interact action, C# event (để làm đoạn trên à, đoạn trên là interact thì log lại?) [[Csharp event]]
 + selected counter visual, singleton pattern
 + kitchen object, scriptable objects
 + kitchen object parent (là cái gì đó?)

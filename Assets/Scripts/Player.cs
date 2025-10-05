@@ -18,6 +18,29 @@ public class Player : MonoBehaviour
     private RaycastHit hitObject;
     private Vector3 lastInteractionDirection;
 
+    private void Start()
+    {
+        gameInput.OnInteractAction += GameInput_OnInteractAction;
+    }
+
+    private void GameInput_OnInteractAction(object sender, System.EventArgs e)
+    {
+        inputVector = gameInput.GetMovementVectorNormalized();
+        moveDir = new Vector3(inputVector.x, 0, inputVector.y);
+        if (moveDir != Vector3.zero)
+        {
+            lastInteractionDirection = moveDir;
+        }
+        if (Physics.Raycast(transform.position, lastInteractionDirection, out hitObject, interactionDistance, counterLayerMask))
+        {
+            if (hitObject.transform.TryGetComponent(out ClearCounter clearCounter))
+            {
+                clearCounter.Interact();
+            }
+        }
+    }
+
+
     private void Update()
     {
         HandleInteractions();
@@ -41,7 +64,7 @@ public class Player : MonoBehaviour
         {
             if (hitObject.transform.TryGetComponent(out ClearCounter clearCounter))
             {
-                clearCounter.Interact();
+                // clearCounter.Interact();
             }
         }
     }

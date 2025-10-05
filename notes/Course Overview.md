@@ -11,8 +11,8 @@ Trình tự thực hiện các bước thì gồm:
 + về VS 2022 (mình ko dùng, mình vẫn dùng VS code thôi)
 + Code style, naming rules [[Code style, naming rules]]
 + Importing Assets (mấy cái này là bước khởi đầu rồi, mà chỉ import thôi, chả có gì)
-+ Post processing (ơ sao làm bước này sớm thế?)
-+ Character controller
++ Post processing (ơ sao làm bước này sớm thế?) [[Post processing]]
++ Character controller [[Character controller]]
 + Character visual, rotation (character cơ bản thôi, kết hợp phần trên)
 + Animations
 + Cinemachine (thật ra cũng chả dùng mấy mà biết thì tốt)

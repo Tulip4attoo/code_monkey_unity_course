@@ -14,7 +14,7 @@ Trình tự thực hiện các bước thì gồm:
 + Post processing (ơ sao làm bước này sớm thế?) [[Post processing]]
 + Character controller [[Character controller]]
 + Character visual, rotation (character cơ bản thôi, kết hợp phần trên) [[Character visual n rotation]]
-+ Animations
++ Animations [[Animations]]
 + Cinemachine (thật ra cũng chả dùng mấy mà biết thì tốt)
 + input system refactor (cơ chế mới, tốt đó)
 + collision detection

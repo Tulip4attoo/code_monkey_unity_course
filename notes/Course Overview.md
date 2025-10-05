@@ -15,7 +15,7 @@ Trình tự thực hiện các bước thì gồm:
 + Character controller [[Character controller]]
 + Character visual, rotation (character cơ bản thôi, kết hợp phần trên) [[Character visual n rotation]]
 + Animations [[Animations]]
-+ Cinemachine (thật ra cũng chả dùng mấy mà biết thì tốt)
++ Cinemachine (thật ra cũng chả dùng mấy mà biết thì tốt) [[Cinemachine]]
 + input system refactor (cơ chế mới, tốt đó)
 + collision detection
 + clear counter, interact
